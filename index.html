@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Gift Box</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page" id="pageRoot">
+      <section class="landing" id="landingSection" aria-live="polite">
+        <h1 id="landingTitle">A surprise is waiting... 🎁</h1>
+        <p class="subtle">Tap the gift box to open your birthday surprise.</p>
+
+        <button
+          class="gift-box"
+          id="giftBox"
+          type="button"
+          aria-label="Open the birthday gift box"
+        >
+          <span class="gift-lid" aria-hidden="true">
+            <span class="gift-ribbon-vertical"></span>
+            <span class="gift-ribbon-horizontal"></span>
+            <span class="gift-bow left"></span>
+            <span class="gift-bow right"></span>
+          </span>
+          <span class="gift-body" aria-hidden="true">
+            <span class="gift-ribbon-vertical"></span>
+            <span class="gift-ribbon-horizontal"></span>
+          </span>
+          <span class="gift-shadow" aria-hidden="true"></span>
+        </button>
+
+        <div class="effects" aria-hidden="true" id="effectsLayer">
+          <div class="sparkles" id="sparkles"></div>
+          <div class="balloons" id="balloons"></div>
+          <div class="confetti" id="confetti"></div>
+        </div>
+
+        <article class="card" id="birthdayCard" aria-hidden="true">
+          <h2 id="birthdayHeading">Happy Birthday 🎂💖</h2>
+          <p class="message" id="birthdayMessage"></p>
+
+          <div class="slideshow" aria-label="Birthday photos">
+            <img
+              id="photoFrame"
+              src=""
+              alt="Birthday memory"
+              class="slide-image"
+            />
+            <p class="slide-counter" id="slideCounter">1 / 1</p>
+          </div>
+
+          <div class="card-actions">
+            <button id="nextSlideBtn" type="button" class="btn">Next</button>
+          </div>
+        </article>
+
+        <button id="replayBtn" type="button" class="btn replay" aria-label="Replay surprise">
+          Replay
+        </button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
