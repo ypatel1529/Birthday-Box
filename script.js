@@ -4,11 +4,11 @@
   - Put optional music in assets/audio/
   - Update only this top section for personalization
 */
-const recipientName = "Your Love";
-const boyfriendName = "Your Boyfriend";
+const recipientName = "Yashvi";
+const boyfriendName = "Jenu";
 const messageText = "Wishing you the happiest birthday ever. You make life brighter every day, and I am so lucky to celebrate you.";
-const imageList = ["photo1.jpg", "photo2.jpg", "photo3.jpg"];
-const musicFile = ""; // Example: "song.mp3". Leave empty to disable music.
+const imageList = ["1.jpg", "2.jpg", "3.jpg"];
+const musicFile = "L.mp3"; // Example: "song.mp3". Leave empty to disable music.
 
 const pageRoot = document.getElementById("pageRoot");
 const giftBox = document.getElementById("giftBox");
