@@ -5,9 +5,9 @@
   - Update only this top section for personalization
 */
 const recipientName = "Yashvi";
-const boyfriendName = "Jenu";
+const boyfriendName = "Jenish";
 const messageText = "Wishing you the happiest birthday ever. You make life brighter every day, and I am so lucky to celebrate you.";
-const imageList = ["1.jpg", "2.jpg", "3.jpg"];
+const imageList = ["1.jpeg", "2.jpeg", "3.jpeg"];
 const musicFile = "L.mp3"; // Example: "song.mp3". Leave empty to disable music.
 
 const pageRoot = document.getElementById("pageRoot");
