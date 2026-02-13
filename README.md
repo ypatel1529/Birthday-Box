@@ -73,4 +73,4 @@ https://johndoe.github.io/birthday-gift-box/
 
 ## Worldwide access note
 
-This project is fully static (no backend), so the link works worldwide (including UK and Canada) as long as GitHub Pages is reachable. You do not need to keep any terminal or local machine running after deployment.
+This project is fully static (no backend), so the link works worldwide (including UK and Canada) as long as GitHub Pages is reachable. You do not need to keep any terminal or local machine running after deployment. Ok Noted
